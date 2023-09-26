@@ -1,6 +1,6 @@
 //
-//  MapKitSwiftuiApp.swift
-//  MapKitSwiftui
+//  MapKitSwiftUIApp.swift
+//  MapKitSwiftUI
 //
 //  Created by Yoan on 26/09/2023.
 //

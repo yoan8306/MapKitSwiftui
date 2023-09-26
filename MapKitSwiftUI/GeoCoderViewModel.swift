@@ -1,18 +1,20 @@
 //
 //  GeoCoderViewModel.swift
-//  MapKitSwiftui
+//  MapKitSwiftUI
 //
 //  Created by Yoan on 26/09/2023.
 //
 
 import Foundation
+import MapKit
 import CoreLocation
 
 class GeoCoderViewModel: ObservableObject {
-    func convertToLocationToAdress(coordinate: CLLocationCoordinate2D?, completion: @escaping (CLPlacemark?) -> Void) {
+    @Published var placeMark: CLPlacemark?
+    
+    func convertToLocationToAdress(coordinate: CLLocationCoordinate2D?) {
         let geoCoder = CLGeocoder()
         guard let coordinate = coordinate else {
-            completion(nil)
             return
         }
         let location: CLLocation = CLLocation(latitude:coordinate.latitude , longitude: coordinate.longitude)
@@ -22,9 +24,7 @@ class GeoCoderViewModel: ObservableObject {
                 return
             }
             if let address = placeMark.first {
-                completion(address)
-            } else {
-                completion(nil)
+                self.placeMark = address
             }
         }
     }

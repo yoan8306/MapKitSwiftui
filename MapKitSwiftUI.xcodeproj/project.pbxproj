@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC38DA02AC3437300347036 /* MapKitSwiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC38D9F2AC3437300347036 /* MapKitSwiftuiApp.swift */; };
+		5FC38DA02AC3437300347036 /* MapKitSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC38D9F2AC3437300347036 /* MapKitSwiftUIApp.swift */; };
 		5FC38DA22AC3437300347036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC38DA12AC3437300347036 /* ContentView.swift */; };
 		5FC38DA42AC3437B00347036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC38DA32AC3437B00347036 /* Assets.xcassets */; };
 		5FC38DA72AC3437B00347036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC38DA62AC3437B00347036 /* Preview Assets.xcassets */; };
@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5FC38D9C2AC3437300347036 /* MapKitSwiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitSwiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FC38D9F2AC3437300347036 /* MapKitSwiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSwiftuiApp.swift; sourceTree = "<group>"; };
+		5FC38D9C2AC3437300347036 /* MapKitSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC38D9F2AC3437300347036 /* MapKitSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSwiftUIApp.swift; sourceTree = "<group>"; };
 		5FC38DA12AC3437300347036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FC38DA32AC3437B00347036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC38DA62AC3437B00347036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		5FC38D932AC3437300347036 = {
 			isa = PBXGroup;
 			children = (
-				5FC38D9E2AC3437300347036 /* MapKitSwiftui */,
+				5FC38D9E2AC3437300347036 /* MapKitSwiftUI */,
 				5FC38D9D2AC3437300347036 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +47,22 @@
 		5FC38D9D2AC3437300347036 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5FC38D9C2AC3437300347036 /* MapKitSwiftui.app */,
+				5FC38D9C2AC3437300347036 /* MapKitSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FC38D9E2AC3437300347036 /* MapKitSwiftui */ = {
+		5FC38D9E2AC3437300347036 /* MapKitSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				5FC38D9F2AC3437300347036 /* MapKitSwiftuiApp.swift */,
+				5FC38D9F2AC3437300347036 /* MapKitSwiftUIApp.swift */,
 				5FC38DA12AC3437300347036 /* ContentView.swift */,
 				5FC38DAD2AC3439D00347036 /* MapKit.swift */,
 				5FC38DAF2AC345F300347036 /* GeoCoderViewModel.swift */,
 				5FC38DA32AC3437B00347036 /* Assets.xcassets */,
 				5FC38DA52AC3437B00347036 /* Preview Content */,
 			);
-			path = MapKitSwiftui;
+			path = MapKitSwiftUI;
 			sourceTree = "<group>";
 		};
 		5FC38DA52AC3437B00347036 /* Preview Content */ = {
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5FC38D9B2AC3437300347036 /* MapKitSwiftui */ = {
+		5FC38D9B2AC3437300347036 /* MapKitSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FC38DAA2AC3437B00347036 /* Build configuration list for PBXNativeTarget "MapKitSwiftui" */;
+			buildConfigurationList = 5FC38DAA2AC3437B00347036 /* Build configuration list for PBXNativeTarget "MapKitSwiftUI" */;
 			buildPhases = (
 				5FC38D982AC3437300347036 /* Sources */,
 				5FC38D992AC3437300347036 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = MapKitSwiftui;
+			name = MapKitSwiftUI;
 			productName = MapKitSwiftui;
-			productReference = 5FC38D9C2AC3437300347036 /* MapKitSwiftui.app */;
+			productReference = 5FC38D9C2AC3437300347036 /* MapKitSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5FC38D972AC3437300347036 /* Build configuration list for PBXProject "MapKitSwiftui" */;
+			buildConfigurationList = 5FC38D972AC3437300347036 /* Build configuration list for PBXProject "MapKitSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5FC38D9B2AC3437300347036 /* MapKitSwiftui */,
+				5FC38D9B2AC3437300347036 /* MapKitSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC38DA22AC3437300347036 /* ContentView.swift in Sources */,
-				5FC38DA02AC3437300347036 /* MapKitSwiftuiApp.swift in Sources */,
+				5FC38DA02AC3437300347036 /* MapKitSwiftUIApp.swift in Sources */,
 				5FC38DB02AC345F300347036 /* GeoCoderViewModel.swift in Sources */,
 				5FC38DAE2AC3439D00347036 /* MapKit.swift in Sources */,
 			);
@@ -279,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MapKitSwiftui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MapKitSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NLCUCTBNY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -293,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoansoussand.MapKitSwiftui;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoansoussand.MapKitSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MapKitSwiftui/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MapKitSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NLCUCTBNY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoansoussand.MapKitSwiftui;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoansoussand.MapKitSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5FC38D972AC3437300347036 /* Build configuration list for PBXProject "MapKitSwiftui" */ = {
+		5FC38D972AC3437300347036 /* Build configuration list for PBXProject "MapKitSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FC38DA82AC3437B00347036 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FC38DAA2AC3437B00347036 /* Build configuration list for PBXNativeTarget "MapKitSwiftui" */ = {
+		5FC38DAA2AC3437B00347036 /* Build configuration list for PBXNativeTarget "MapKitSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5FC38DAB2AC3437B00347036 /* Debug */,
