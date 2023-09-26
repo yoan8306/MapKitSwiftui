@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MapKitSwiftuiApp: App {
+struct MapKitSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

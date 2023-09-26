@@ -21,10 +21,10 @@ struct MapKit: View {
                         .tint(.orange)
                 }
             }
-                .onTapGesture(perform: { screenCoord in
-                       pinLocation = reader.convert(screenCoord, from: .local)
-                    geoCoderViewModel.convertToLocationToAdress(coordinate: pinLocation)
-                })
+            .onTapGesture(perform: { screenCoord in
+                pinLocation = reader.convert(screenCoord, from: .local)
+                geoCoderViewModel.convertToLocationToAdress(coordinate: pinLocation)
+            })
         }
     }
 }
